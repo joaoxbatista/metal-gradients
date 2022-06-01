@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds - Examples </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/backgrounds.css">
+    <style>
+        .container {
+            width: 100%;
+            max-width: 720px;
+            margin: 0 auto;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 4px auto;
+            
+        }
+
+        .circle p {
+            color: #888;
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: monospace;
+            max-width: 60%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="carbon4">
+    <div class="container">
+        <div class="circle carbon">
+            <p>Only light</p>
+        </div>
+        <div class="circle carbon2">
+            <p>Light + Linear</p>
+        </div>
+        <div class="circle carbon3">
+            <p>Light + Linear + Radial</p>
+        </div>
+        <div class="circle carbon4">
+            <p>Light + Linear + Radial + Noise</p>
+        </div>
+    </div>
+</body>
+</html>
